@@ -4,17 +4,11 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom'
-import ViewPort from 'dashboard/ViewPort'
+
+import Layout from 'app/Layout'
 
 const App = (props) => (
-  <Router>
-    <div>
-      <Route
-        path='/'
-        component={ViewPort}
-      />
-    </div>
-  </Router>
+  <Layout />
 )
 
 export default App
