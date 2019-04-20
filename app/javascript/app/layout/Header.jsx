@@ -30,6 +30,10 @@ class Header extends React.Component {
             <NavbarItem>
               <Link to='/events'>Events</Link>
             </NavbarItem>
+
+            <NavbarItem>
+              <Link to='/stores'>Stores</Link>
+            </NavbarItem>
           </NavbarStart>
         </NavbarMenu>
       </Navbar>
